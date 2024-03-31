@@ -36,7 +36,7 @@ useEffect(()=>{
     new Set(allProperties)]
 
     //set Properties state
-    setCountries(uniqueProperties);
+    setProperties(uniqueProperties);
 },[])
 
   return <HouseContext.Provider value={{
