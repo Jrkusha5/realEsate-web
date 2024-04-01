@@ -15,8 +15,9 @@ const Banner = () => {
         <span className='text-violet-700'>Rent</span>Your Dream House With Us.
       </h1>
       <p className='mx-w-[480px] mb-8'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Amet, illoat. Repudiandae ratione impedit delectus consectetur.
+     TIRED OF DISTANCE BETWEEN YOU AND YOUR REAL ESTATE INVESTMENTS? LOOKING FOR A RELIABLE
+       AGENCY TO HANDLE THE HASSLE? 
+      Let us bridge the gap and manage your properties with care and expertise.
       </p>
     </div>
     
