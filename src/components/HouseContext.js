@@ -34,7 +34,7 @@ useEffect(()=>{
 // remove duplicates
   const uniqueProperties =['Location (any)', ... 
     new Set(allProperties)]
-
+// remove duplicates
     //set Properties state
     setProperties(uniqueProperties);
 },[]);
@@ -44,7 +44,7 @@ const handleClick =()=>{
   setLoding(true);
   
 //create a function that checks if the string includes '(any)'
-  const isDefault =(str)=>{
+  const isDefault = (str) =>{
     return str.split('').includes('(any)');
   };
   //get first value of price and parse it to number
@@ -53,9 +53,11 @@ const handleClick =()=>{
   const maxPrice  = parseInt(price.split('')[2]);
 
   const newHouses =housesData.filter((house)=>{
-    const housePrice =(parseInt(house.price));
+    const housePrice =parseInt(house.price);
 
-  if (house.country ===country && house.type=== property &&
+  if (
+    house.country ===country && 
+    house.type=== property &&
     housePrice>= minPrice &&
     housePrice<= maxPrice) {
       return house;
@@ -67,7 +69,7 @@ const handleClick =()=>{
 
    if(!isDefault(country) && isDefault(property)&&
    isDefault(price)) {
-    return house.country ===country;
+    return house.country === country;
    }
 
    if (!isDefault(property) && isDefault(country)&&
@@ -84,7 +86,8 @@ const handleClick =()=>{
  
    if (!isDefault(country) && !isDefault(property)&&
    isDefault(price)){
-    return house.country ===country && house.type===property;
+    return house.country === country && house.type 
+    ===property;
    }
 
    if (!isDefault(country)&&  isDefault(property)&&
@@ -96,12 +99,12 @@ const handleClick =()=>{
    if(isDefault(country) && !isDefault(property)&&
    !isDefault(price)){
     if (housePrice>= minPrice && housePrice<=maxPrice){
-      return house.type===property;
+      return house.type === property;
     }
    }
 
-
   });
+  //console.log(newHouses);
 
   setTimeout(()=>{
     return (
@@ -109,6 +112,7 @@ const handleClick =()=>{
     setHouses(newHouses),
     setLoding(false)
     );
+    
   }, 1000);
   
 };
@@ -122,7 +126,9 @@ const handleClick =()=>{
     loading,
     handleClick,
     loading,
-  }}>{children}</HouseContext.Provider>;
+  }}>
+    {children}
+    </HouseContext.Provider>;
 };
 
 export default HouseContextProvider;
