@@ -65,9 +65,9 @@ export const housesData = [
     imageLg: House1Lg,
     country: 'United States',
     address: '7240C Argyle St. Lawndale, CA 90260',
-    bedrooms: '6',
+    bedrooms: '7',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '4000 sq ft',
     year: '2016',
     price: '110000',
     agent: {
@@ -88,7 +88,7 @@ export const housesData = [
     address: '798 Talbot St. Bridgewater, NJ 08807',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '5200 sq ft',
     year: '2016',
     price: '140000',
     agent: {
