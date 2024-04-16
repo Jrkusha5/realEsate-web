@@ -1,6 +1,6 @@
-import React ,{useState,useEffect, useContext}from 'react';
+import React ,{useState, useContext}from 'react';
 
-import {RiWallet2Line ,RiMapPinLine, RiArrowDownSLine,
+import {RiWallet2Line , RiArrowDownSLine,
 RiArrowUpSLine} from 'react-icons/ri'
 
 import {Menu} from '@headlessui/react'
@@ -64,7 +64,7 @@ const PriceRangeDropdown = () => {
       {prices.map ((price, index)=>{
         return (
         <Menu.Item onClick={()=> setPrice(price.value)} 
-        className ='cursor-pointer hover:text-violet-700 
+        className ='cursor-pointer hover:text-violet-800 
         transition' as='li' key={index}>
           {price.value}
           </Menu.Item>
