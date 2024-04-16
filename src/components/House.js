@@ -30,21 +30,21 @@ const House = ({house}) => {
       <div>{bedrooms}</div>
     </div>
     <div className='flex items-center
-     text-gray-600 gap-1'>
+     text-gray-500 gap-1'>
       <div className='text-[20px]'>
         <BiBath/>
         </div>
       <div>{bathrooms}</div>
     </div>
     <div className='flex items-center
-     text-gray-600 gap-1'>
+     text-gray-500 gap-1'>
       <div className='text-[20px]'>
         <BiArea/>
         </div>
       <div>{surface}</div>
     </div>
   </div>
-  <div className='text-lg font-semibold text-violet-600
+  <div className='text-lg font-semibold text-violet-700
   mb-4'>{price}</div>
   </div>
 
