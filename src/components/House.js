@@ -23,7 +23,7 @@ const House = ({house}) => {
   {address}</div>
   <div className='flex gap-x-4 my-4'>
     <div className='flex items-center
-     text-gray-600 gap-1'>
+     text-gray-500 gap-1'>
       <div className='text-[20px]'>
         <BiBed/>
         </div>
@@ -44,7 +44,7 @@ const House = ({house}) => {
       <div>{surface}</div>
     </div>
   </div>
-  <div className='text-lg font-semibold text-violet-700
+  <div className='text-lg font-semibold text-violet-800
   mb-4'>{price}</div>
   </div>
 
