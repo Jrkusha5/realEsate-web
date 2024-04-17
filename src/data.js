@@ -333,7 +333,7 @@ export const housesData = [
     type: 'House',
     name: 'House 11',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House11,
     imageLg: House11Lg,
     country: 'United States',
@@ -367,7 +367,7 @@ export const housesData = [
     agent: {
       image: Agent3,
       name: 'Amado Smith',
-      phone: '0123 456 78910',
+      phone: '0123 456 78810',
     },
   },
   {
