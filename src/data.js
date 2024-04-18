@@ -388,7 +388,7 @@ export const housesData = [
     agent: {
       image: Agent4,
       name: 'Kaitlyn Gonzalez',
-      phone: '0123 456 78910',
+      phone: '0123 455 78910',
     },
   },
   {
