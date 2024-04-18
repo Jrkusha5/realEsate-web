@@ -186,7 +186,7 @@ export const housesData = [
     type: 'Apartament',
     name: 'Apartament 1',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Lorem ipsum dolor amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment1,
     imageLg: Apartment1Lg,
     country: 'Canada',
@@ -199,7 +199,7 @@ export const housesData = [
     agent: {
       image: Agent7,
       name: 'Jawhar Shamil Naser',
-      phone: '0123 456 78910',
+      phone: '0123 456 78970',
     },
   },
   {
@@ -232,7 +232,7 @@ export const housesData = [
     image: Apartment3,
     imageLg: Apartment3Lg,
     country: 'United States',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    address: '84 Woodland St. Cocoa, FL 32827',
     bedrooms: '2',
     bathrooms: '1',
     surface: '1100 sq ft',
@@ -241,7 +241,7 @@ export const housesData = [
     agent: {
       image: Agent9,
       name: 'Jerry Schenck',
-      phone: '0123 456 78910',
+      phone: '0123 456 78810',
     },
   },
   {
@@ -262,7 +262,7 @@ export const housesData = [
     agent: {
       image: Agent10,
       name: 'Vera Levesque',
-      phone: '0123 456 78910',
+      phone: '0123 446 78910',
     },
   },
   {
@@ -304,7 +304,7 @@ export const housesData = [
     agent: {
       image: Agent12,
       name: 'Raymond Hood',
-      phone: '0123 456 78910',
+      phone: '0123 456 78810',
     },
   },
   {
