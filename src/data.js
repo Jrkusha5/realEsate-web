@@ -409,7 +409,7 @@ export const housesData = [
     agent: {
       image: Agent5,
       name: 'Grover Robinson',
-      phone: '0123 456 78910',
+      phone: '0123 456 78810',
     },
   },
   {
@@ -421,7 +421,7 @@ export const housesData = [
     image: Apartment6,
     imageLg: Apartment6Lg,
     country: 'Canada',
-    address: '84 Woodland St. Cocoa, FL 32927',
+    address: '84 Woodland St. Cocoa, FL 34927',
     bedrooms: '3',
     bathrooms: '1',
     surface: '1200 sq ft',
@@ -430,7 +430,7 @@ export const housesData = [
     agent: {
       image: Agent6,
       name: 'Karen Sorensen',
-      phone: '0123 456 78910',
+      phone: '0123 456 88910',
     },
   },
 ];
