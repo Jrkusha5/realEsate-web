@@ -30,7 +30,7 @@ const House = ({house}) => {
       <div>{bedrooms}</div>
     </div>
     <div className='flex items-center
-     text-gray-500 gap-1'>
+     text-gray-400 gap-1'>
       <div className='text-[20px]'>
         <BiBath/>
         </div>
