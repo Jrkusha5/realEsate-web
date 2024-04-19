@@ -64,7 +64,7 @@ const PriceRangeDropdown = () => {
       {prices.map ((price, index)=>{
         return (
         <Menu.Item onClick={()=> setPrice(price.value)} 
-        className ='cursor-pointer hover:text-violet-800 
+        className ='cursor-pointer hover:text-violet-700 
         transition' as='li' key={index}>
           {price.value}
           </Menu.Item>
